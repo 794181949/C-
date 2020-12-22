@@ -35,3 +35,20 @@ if 只能控制一个语句，默认情况，因此第二句的表达式会被�
 
 
       
+## switch 的使用
+
+      int val;
+      printf("plz enter your flood:\n");
+      scnaf("%d",&val);
+      
+      switch (val){
+      case 1:
+            printf("1st floor\n");
+            break;
+      case 2:
+            printf("2nd floor\n");
+            break;
+      default:
+            printf("too large\n");
+            
+case 1是程序的入口，之后会从上到下全部执行，
