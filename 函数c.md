@@ -2,6 +2,7 @@
 例子
 
 max是函数的名字， i 和j 是形式参数，叫做形参， void 表示函数没有返回值
+
         void max(int i, int j){
           if (i > j){
             printf("%d\n", i);
